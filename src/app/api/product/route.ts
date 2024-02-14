@@ -6,12 +6,16 @@ const data = [
     name: "Apple",
     description: "A red apple",
     price: 1.99,
+    image:
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_383,c_limit/dda5cd94-dcb1-4067-b5f4-042a8c65de53/court-vision-low-shoes-mxK2Kk.png",
   },
   {
     id: 2,
     name: "Banana",
     description: "A yellow banana",
     price: 0.99,
+    image:
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_383,c_limit/dda5cd94-dcb1-4067-b5f4-042a8c65de53/court-vision-low-shoes-mxK2Kk.png",
   },
 ];
 
