@@ -3,7 +3,11 @@ import Image from "next/image";
 const getData = async () => {
   // const res = await fetch("https://fakestoreapi.com/products");
   const res = await fetch("http://localhost:3000/api/product", {
-    cache: "no-store",
+    cache: "force-cache",
+    // next: { revalidate: 3 },
+    next: {
+      tags: ["products"],
+    },
   });
 
   if (!res.ok) {
